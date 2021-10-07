@@ -1,0 +1,15 @@
+#ifndef LCD_PRIVATE_H
+#define LCD_PRIVATE_H
+
+#define HLCD_4BIT			0
+#define HLCD_8BIT			1
+
+#define FUNCTIONSET    0b00111000
+#define DISPLAY_ON_OFF 0b00001100
+#define DISPLAY_CLEAR  0b00000001
+#define ENTRY_MODE     0b00000110
+
+ #define HLCD_RET_HOME			  0b00000010
+
+#endif
+
